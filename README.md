@@ -340,19 +340,13 @@ large, `422` processing failed, `502` upstream service failure).
 
 ## Screenshots
 
-> Screenshots are added after running the app locally — see below for how to capture them.
+**Upload a document and track its processing status**
 
-| Upload & Document List | Chat / Ask with Sources |
-|---|---|
-| `screenshots/01_upload.png` | `screenshots/02_chat.png` |
+![Upload Documents](screenshots/01_upload_documents.png)
 
-| Document Status | API Docs |
-|---|---|
-| `screenshots/03_status.png` | `screenshots/04_api_docs.png` |
+**Ask a question and get a grounded answer with cited sources**
 
-To generate these: run the app (`docker compose up --build`), open http://localhost:8501,
-upload a PDF, ask a question, and save screenshots into the `screenshots/` folder using
-the file names above so they render automatically in this table.
+![Chat with Sources](screenshots/02_chat_with_sources.png)
 
 ## Future Improvements
 
